@@ -1,0 +1,23 @@
+#main{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    border: 0.5em solid greenyellow;
+}
+.element{
+    flex: 1 1 21%;
+    background-color: white;
+}
+.changed{
+    background-color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#ask{
+    margin-left: 30em;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
